@@ -43,4 +43,4 @@ COPY --from=builder /code /code/
 EXPOSE 5000
 #COPY . .
 CMD ["flask", "run"]
-#activated pollSCM
+#activated pollSCM general options
